@@ -7,7 +7,6 @@ from pathlib import Path
 
 from .models import CommentRecord
 
-
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS comments (
     comment_id TEXT PRIMARY KEY,
