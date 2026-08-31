@@ -1,0 +1,19 @@
+# Copy to config.toml and list only threads covered by the approved use case.
+database_path = "data/reddit_feedback.sqlite3"
+report_directory = "reports"
+retention_hours = 48
+max_comments_per_thread = 500
+
+allowed_subreddits = [
+  "learnmachinelearning",
+  "nursing",
+  "HealthInformatics",
+]
+
+[themes]
+coding_background = ["coding", "programming", "python", "developer"]
+no_code = ["no-code", "no code", "non-technical", "beginner"]
+hands_on_projects = ["project", "hands-on", "build", "portfolio"]
+rag_and_workflows = ["rag", "workflow", "langchain", "agentic"]
+cost_and_value = ["price", "cost", "expensive", "worth"]
+
