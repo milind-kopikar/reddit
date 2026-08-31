@@ -40,8 +40,7 @@ model. Access will remain within the use case and limits Reddit approves.
 ## What is missing from Devvit that prevents building on that platform?
 
 This is an external, researcher-operated analysis workflow rather than an experience installed in
-a subreddit. It needs to accept a small set of researcher-selected thread URLs, run within the
-university's controlled environment, apply institutional access and retention controls, and produce
+a subreddit. It needs to accept a small set of researcher-selected thread URLs, run within a controlled environment, apply institutional access and retention controls, and produce
 an internal aggregate CSV for faculty review. It does not need to add UI, moderation actions,
 automations, games, or other interactive functionality inside Reddit. I am therefore requesting
 approved, read-only OAuth Data API access for this narrowly scoped workflow.
@@ -63,9 +62,8 @@ institutional review.
 
 ## Additional disclosure worth including if the form permits
 
-The expected volume is [NUMBER] manually selected threads per [WEEK/MONTH], up to 500 comments per
-thread. The only operators are [TEAM/ROLES]. Findings will be used [DESCRIBE WHETHER ONLY FOR
-RESEARCH, INTERNAL COURSE IMPROVEMENT, OR A COMMERCIAL OFFERING]. No data will be provided to third
+The expected volume is 100 manually selected threads per week, up to 500 comments per
+thread. I will be the only operator. Findings will be used for internal product (courses and programs) improvement. No data will be provided to third
 parties. I will comply with Reddit's current Developer Terms, Data API Terms, Developer Data
 Protection Addendum, rate limits, deletion requirements, and any additional conditions in the
 approval.
